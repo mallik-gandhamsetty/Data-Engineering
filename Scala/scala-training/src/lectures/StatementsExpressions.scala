@@ -8,12 +8,6 @@ object StatementsExpressions extends App{
   val x = 1 + 2 // 1 + 2 is an expression. val x = 1 + 2 is a statement
   println(x)
 
-  println(2 + 3 * 4)
-
-  println(1 == x)   // == != > >= < <=
-
-
-  println(!(1 == x))  // !(1 == x) is an expression
 
   // statements
   var aVariable = 2
@@ -24,17 +18,17 @@ object StatementsExpressions extends App{
   //      If you can't put it on the right-hand side of an assignment, it's probably a statement
 
 
-  // Code blocks
-
+  // Expressions can be defined in the form of a code block
+  // last line of code in the code block decides the return value and type of the bock
+  //
   val aCodeBlock = {
     val y = 2
     val z = y + 1
-
-    if (z > 2) "hello" else "goodbye"
+    z                 // z is the return value of the block
   }
 
   // Quiz: Difference between "hello world" vs println("hello world")?
-
-
+  // Ans: "hello world" is an expression that can be evaluated to a String and can be assigned to a variable.
+  //      println("hello world") is a statement that prints to the console. It doesn't evaluate to any value.
 
 }
