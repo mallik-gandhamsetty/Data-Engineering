@@ -133,7 +133,7 @@ object Lists extends App{
   //    2. map
   //    3. filter
   //    4. partition
-  //    5. sortVy
+  //    5. sortBy
   //    6. fold
   //    7. scan
   //    8. reduce

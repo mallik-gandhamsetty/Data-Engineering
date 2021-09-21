@@ -4,7 +4,6 @@ object Maps extends App{
 
   // A Map is a collection of Key Value Pairs or Tuples
 
-
   // create a map from a key value pair
   val stateCodes = Map(
     "California" -> "CA",           // use a key -> value notation to specify a Key value pair in a map
